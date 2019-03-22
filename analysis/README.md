@@ -1,1 +1,1 @@
-Nearest neighbors, aggregate indexs, angles and distances and frontier orbitals
+Nearest neighbors, aggregate indexs, angles-distances and frontier orbitals
