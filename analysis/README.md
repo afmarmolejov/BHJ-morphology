@@ -1,4 +1,4 @@
-Nearest neighbors
-aggregate indexs
-angles and distances
-frontier orbitals
+Nearest neighbors\n
+aggregate indexs\n
+angles and distances\n
+frontier orbitals\n
