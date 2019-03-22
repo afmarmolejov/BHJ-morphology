@@ -1,0 +1,33 @@
+#!/bin/bash
+#BSUB -q q_htc
+#BSUB -eo error
+#BSUB -oo sal
+#BSUB -R "span[hosts=1]"
+#BSUB -n 16
+
+module load qchem/4.4-serial-multicore
+export QCSCRATCH=/tmpu/cab_g/afmv_a/scratch_qchem
+qchem -nt 16 C306_1/C306_345.qcin C306_1/C306_345.qcout
+qchem -nt 16 C306_1/C306_120.qcin C306_1/C306_120.qcout
+qchem -nt 16 C306_1/C306_330.qcin C306_1/C306_330.qcout
+qchem -nt 16 C306_1/C306_60.qcin C306_1/C306_60.qcout
+qchem -nt 16 C306_1/C306_285.qcin C306_1/C306_285.qcout
+qchem -nt 16 C306_1/C306_225.qcin C306_1/C306_225.qcout
+qchem -nt 16 C306_1/C306_75.qcin C306_1/C306_75.qcout
+qchem -nt 16 C306_1/C306_255.qcin C306_1/C306_255.qcout
+qchem -nt 16 C306_1/C306_195.qcin C306_1/C306_195.qcout
+qchem -nt 16 C306_1/C306_135.qcin C306_1/C306_135.qcout
+qchem -nt 16 C306_1/C306_90.qcin C306_1/C306_90.qcout
+qchem -nt 16 C306_1/C306_30.qcin C306_1/C306_30.qcout
+qchem -nt 16 C306_1/C306_45.qcin C306_1/C306_45.qcout
+qchem -nt 16 C306_1/C306_15.qcin C306_1/C306_15.qcout
+qchem -nt 16 C306_1/C306_210.qcin C306_1/C306_210.qcout
+qchem -nt 16 C306_1/C306_180.qcin C306_1/C306_180.qcout
+qchem -nt 16 C306_1/C306_0.qcin C306_1/C306_0.qcout
+qchem -nt 16 C306_1/C306_300.qcin C306_1/C306_300.qcout
+qchem -nt 16 C306_1/C306_165.qcin C306_1/C306_165.qcout
+qchem -nt 16 C306_1/C306_150.qcin C306_1/C306_150.qcout
+qchem -nt 16 C306_1/C306_240.qcin C306_1/C306_240.qcout
+qchem -nt 16 C306_1/C306_315.qcin C306_1/C306_315.qcout
+qchem -nt 16 C306_1/C306_270.qcin C306_1/C306_270.qcout
+qchem -nt 16 C306_1/C306_105.qcin C306_1/C306_105.qcout

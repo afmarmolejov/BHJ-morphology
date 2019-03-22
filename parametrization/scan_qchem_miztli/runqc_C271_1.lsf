@@ -1,0 +1,33 @@
+#!/bin/bash
+#BSUB -q q_htc
+#BSUB -eo error
+#BSUB -oo sal
+#BSUB -R "span[hosts=1]"
+#BSUB -n 16
+
+module load qchem/4.4-serial-multicore
+export QCSCRATCH=/tmpu/cab_g/afmv_a/scratch_qchem
+qchem -nt 16 C271_1/C271_255.qcin C271_1/C271_255.qcout
+qchem -nt 16 C271_1/C271_345.qcin C271_1/C271_345.qcout
+qchem -nt 16 C271_1/C271_210.qcin C271_1/C271_210.qcout
+qchem -nt 16 C271_1/C271_225.qcin C271_1/C271_225.qcout
+qchem -nt 16 C271_1/C271_285.qcin C271_1/C271_285.qcout
+qchem -nt 16 C271_1/C271_90.qcin C271_1/C271_90.qcout
+qchem -nt 16 C271_1/C271_300.qcin C271_1/C271_300.qcout
+qchem -nt 16 C271_1/C271_0.qcin C271_1/C271_0.qcout
+qchem -nt 16 C271_1/C271_75.qcin C271_1/C271_75.qcout
+qchem -nt 16 C271_1/C271_150.qcin C271_1/C271_150.qcout
+qchem -nt 16 C271_1/C271_15.qcin C271_1/C271_15.qcout
+qchem -nt 16 C271_1/C271_120.qcin C271_1/C271_120.qcout
+qchem -nt 16 C271_1/C271_30.qcin C271_1/C271_30.qcout
+qchem -nt 16 C271_1/C271_330.qcin C271_1/C271_330.qcout
+qchem -nt 16 C271_1/C271_195.qcin C271_1/C271_195.qcout
+qchem -nt 16 C271_1/C271_270.qcin C271_1/C271_270.qcout
+qchem -nt 16 C271_1/C271_105.qcin C271_1/C271_105.qcout
+qchem -nt 16 C271_1/C271_60.qcin C271_1/C271_60.qcout
+qchem -nt 16 C271_1/C271_315.qcin C271_1/C271_315.qcout
+qchem -nt 16 C271_1/C271_240.qcin C271_1/C271_240.qcout
+qchem -nt 16 C271_1/C271_45.qcin C271_1/C271_45.qcout
+qchem -nt 16 C271_1/C271_135.qcin C271_1/C271_135.qcout
+qchem -nt 16 C271_1/C271_165.qcin C271_1/C271_165.qcout
+qchem -nt 16 C271_1/C271_180.qcin C271_1/C271_180.qcout

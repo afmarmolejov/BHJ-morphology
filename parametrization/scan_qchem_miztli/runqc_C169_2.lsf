@@ -1,0 +1,33 @@
+#!/bin/bash
+#BSUB -q q_htc
+#BSUB -eo error
+#BSUB -oo sal
+#BSUB -R "span[hosts=1]"
+#BSUB -n 16
+
+module load qchem/4.4-serial-multicore
+export QCSCRATCH=/tmpu/cab_g/afmv_a/scratch_qchem
+qchem -nt 16 C169_2/C169_315.qcin C169_2/C169_315.qcout
+qchem -nt 16 C169_2/C169_270.qcin C169_2/C169_270.qcout
+qchem -nt 16 C169_2/C169_240.qcin C169_2/C169_240.qcout
+qchem -nt 16 C169_2/C169_180.qcin C169_2/C169_180.qcout
+qchem -nt 16 C169_2/C169_255.qcin C169_2/C169_255.qcout
+qchem -nt 16 C169_2/C169_105.qcin C169_2/C169_105.qcout
+qchem -nt 16 C169_2/C169_90.qcin C169_2/C169_90.qcout
+qchem -nt 16 C169_2/C169_45.qcin C169_2/C169_45.qcout
+qchem -nt 16 C169_2/C169_345.qcin C169_2/C169_345.qcout
+qchem -nt 16 C169_2/C169_165.qcin C169_2/C169_165.qcout
+qchem -nt 16 C169_2/C169_195.qcin C169_2/C169_195.qcout
+qchem -nt 16 C169_2/C169_285.qcin C169_2/C169_285.qcout
+qchem -nt 16 C169_2/C169_300.qcin C169_2/C169_300.qcout
+qchem -nt 16 C169_2/C169_135.qcin C169_2/C169_135.qcout
+qchem -nt 16 C169_2/C169_75.qcin C169_2/C169_75.qcout
+qchem -nt 16 C169_2/C169_120.qcin C169_2/C169_120.qcout
+qchem -nt 16 C169_2/C169_60.qcin C169_2/C169_60.qcout
+qchem -nt 16 C169_2/C169_0.qcin C169_2/C169_0.qcout
+qchem -nt 16 C169_2/C169_30.qcin C169_2/C169_30.qcout
+qchem -nt 16 C169_2/C169_330.qcin C169_2/C169_330.qcout
+qchem -nt 16 C169_2/C169_15.qcin C169_2/C169_15.qcout
+qchem -nt 16 C169_2/C169_225.qcin C169_2/C169_225.qcout
+qchem -nt 16 C169_2/C169_210.qcin C169_2/C169_210.qcout
+qchem -nt 16 C169_2/C169_150.qcin C169_2/C169_150.qcout
