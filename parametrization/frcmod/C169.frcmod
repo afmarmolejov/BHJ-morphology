@@ -1,0 +1,154 @@
+remark goes here
+MASS
+ca 12.010        0.360
+nb 14.010        0.530
+cp 12.010        0.360
+nc 14.010        0.530
+ss 32.060        2.900
+cc 12.010        0.360
+cd 12.010        0.360
+ha 1.008         0.135
+h4 1.008         0.135
+
+BOND
+ca-ca  461.10   1.398
+ca-ha  345.80   1.086
+ca-nb  488.00   1.339
+ca-h4  341.50   1.089
+ca-cp  450.20   1.406
+nb-cp  488.50   1.339
+cp-cp  351.40   1.485
+ca-nc  467.70   1.352
+nc-ss  359.80   1.626
+ca-cc  385.10   1.456
+cc-ss  265.80   1.756
+cc-cc  419.80   1.428
+cc-cd  500.90   1.373
+cd-cd  419.80   1.428
+cd-ha  349.10   1.084
+cc-h4  352.00   1.082
+
+ANGLE
+ca-ca-ca   66.620     120.020
+ca-ca-ha   48.180     119.880
+ca-ca-nb   68.830     122.940
+ca-ca-h4   48.060     120.340
+ca-ca-cp   66.260     120.690
+ca-nb-cp   68.110     118.050
+ca-cp-nb   69.010     121.620
+ca-cp-cp   64.050     121.110
+nb-ca-h4   51.880     116.030
+nb-cp-cp   68.200     116.610
+cp-ca-ha   47.980     119.860
+cp-ca-nc   69.460     119.720   same as ca-ca-nc
+ca-nc-ss   68.420     107.070
+ca-ca-nc   69.460     119.720
+ca-ca-cc   65.020     120.790
+nc-ss-nc   71.970      97.990
+ca-cc-ss   61.480     120.800
+ca-cc-ca   63.240     122.940
+cc-ss-cc   66.150      90.240
+cc-ca-nb   68.720     117.750
+ss-cc-cc   61.930     120.210
+ca-nb-ca   68.350     117.220
+cc-cc-cd   68.150     114.190
+ca-cc-cc   67.170     111.040
+cc-cd-cd   68.150     114.190
+cc-cd-ha   48.540     121.760
+cd-cc-ss   64.850     111.550
+cd-cd-ha   47.150     121.070
+ss-cc-h4   42.060     119.970
+cd-cc-h4   47.270     128.480
+
+DIHE
+ca-ca-ca-cp   1    3.625       180.000           2.000
+ca-ca-ca-ha   1    3.625       180.000           2.000
+ca-ca-nb-cp   1    4.800       180.000           2.000
+ca-ca-ca-nb   1    3.625       180.000           2.000
+ca-ca-ca-h4   1    3.625       180.000           2.000
+ca-ca-cp-nb   1    3.625       180.000           2.000
+ca-ca-cp-cp   1    3.625       180.000           2.000
+ca-ca-ca-ca   1    3.625       180.000           2.000
+ca-nb-cp-ca   1    4.800       180.000           2.000      same as X -ca-nb-X 
+ca-nb-cp-cp   1    4.800       180.000           2.000      same as X -ca-nb-X 
+ca-cp-cp-nb   1    1.000       180.000           2.000
+ca-cp-cp-ca   1    1.000       180.000           2.000
+nb-ca-ca-ha   1    3.625       180.000           2.000
+nb-cp-ca-ha   1    3.625       180.000           2.000
+nb-cp-cp-nb   1    1.000       180.000           2.000
+cp-ca-ca-ha   1    3.625       180.000           2.000
+cp-nb-ca-h4   1    4.800       180.000           2.000
+cp-cp-ca-nc   1    3.625       180.000           2.000
+cp-cp-ca-ha   1    3.625       180.000           2.000
+cp-ca-nc-ss   1    4.800       180.000           2.000
+cp-ca-ca-nc   1    3.625       180.000           2.000
+nb-cp-ca-nc   1    3.625       180.000           2.000
+nb-ca-ca-cc   1    3.625       180.000           2.000
+ca-nc-ss-nc   1    4.800       180.000           2.000
+ca-ca-ca-cc   1    3.625       180.000           2.000
+ca-ca-nc-ss   1    4.800       180.000           2.000
+ca-ca-ca-nc   1    3.625       180.000           2.000
+ca-ca-cc-ss   1    0.700       180.000           2.000      same as X -c2-ca-X 
+ca-ca-cc-ca   1    0.700       180.000           2.000      same as X -c2-ca-X 
+nc-ca-ca-nc   1    3.625       180.000           2.000
+ca-cc-ss-cc   1    1.100       180.000           2.000      same as X -c2-ss-X 
+ca-cc-ca-nb   1    0.700       180.000           2.000      same as X -c2-ca-X 
+nc-ca-ca-cc   1    3.625       180.000           2.000
+cc-ca-ca-h4   1    3.625       180.000           2.000
+cc-ss-cc-cc   1    1.100       180.000           2.000      same as X -c2-ss-X 
+cc-ca-nb-ca   1    4.800       180.000           2.000
+cc-ca-ca-cc   1    3.625       180.000           2.000
+ss-cc-ca-nb   1    0.700       180.000           2.000      same as X -c2-ca-X 
+ss-cc-cc-cd   1    4.000       180.000           2.000
+ss-cc-cc-ss   1    4.000       180.000           2.000
+ca-nb-ca-ca   1    4.800       180.000           2.000
+ca-nb-ca-h4   1    4.800       180.000           2.000
+ca-ca-cc-cc   1    0.700       180.000           2.000      same as X -c2-ca-X 
+cc-cc-cd-cd   1    4.000       180.000           2.000
+cc-cc-cd-ha   1    4.000       180.000           2.000
+nb-ca-ca-nb   1    3.625       180.000           2.000
+nb-ca-ca-h4   1    3.625       180.000           2.000
+ca-cc-cc-cd   1    4.000       180.000           2.000
+ca-cc-cc-ss   1    4.000       180.000           2.000
+cc-cc-ca-nb   1    0.700       180.000           2.000      same as X -c2-ca-X 
+cc-cd-cd-cc   1    4.000       180.000           2.000
+cc-cd-cd-ha   1    4.000       180.000           2.000
+cc-ss-cc-cd   1    1.100       180.000           2.000      same as X -c2-ss-X 
+cc-ss-cc-h4   1    1.100       180.000           2.000      same as X -c2-ss-X 
+cd-cd-cc-ss   1    4.000       180.000           2.000
+cd-cd-cc-h4   1    4.000       180.000           2.000
+ss-cc-cd-ha   1    4.000       180.000           2.000
+ha-ca-ca-ha   1    3.625       180.000           2.000
+ha-ca-ca-h4   1    3.625       180.000           2.000
+h4-ca-ca-h4   1    3.625       180.000           2.000
+ha-cd-cd-ha   1    4.000       180.000           2.000
+ha-cd-cc-h4   1    4.000       180.000           2.000
+
+IMPROPER
+ca-ca-ca-ha         1.1          180.0         2.0          General improper torsional angle (2 general atom types)
+ca-h4-ca-nb         1.1          180.0         2.0          Using default value
+ca-cp-ca-ha         1.1          180.0         2.0          General improper torsional angle (2 general atom types)
+ca-cp-cp-nb         1.1          180.0         2.0          Using default value
+ca-cp-ca-nc         1.1          180.0         2.0          Using default value
+ca-ca-ca-nc         1.1          180.0         2.0          Using default value
+ca-ca-ca-cc         1.1          180.0         2.0          Using default value
+ca-ca-cc-ss         1.1          180.0         2.0          Using default value
+ca-cc-ca-nb         1.1          180.0         2.0          Using default value
+ca-cc-cc-ss         1.1          180.0         2.0          Using default value
+cc-cd-cc-ss         1.1          180.0         2.0          Using default value
+cc-cd-cd-ha         1.1          180.0         2.0          Using default value
+cd-h4-cc-ss         1.1          180.0         2.0          Using default value
+
+NONBON
+  ca          1.9080  0.0860
+  nb          1.8240  0.1700
+  cp          1.9080  0.0860
+  nc          1.8240  0.1700
+  ss          2.0000  0.2500
+  cc          1.9080  0.0860
+  cd          1.9080  0.0860
+  ha          1.4590  0.0150
+  h4          1.4090  0.0150
+
+
+
