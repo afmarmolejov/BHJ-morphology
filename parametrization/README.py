@@ -37,7 +37,6 @@ for root, dirs, filenames in os.walk(indir):
 
 ######## Rotable bonds id
 #
-os.system("tar -xvf ComputeRotableAndDihedralAngles.tar")
 indir="./antechamber_pdb/"
 for root, dirs, filenames in os.walk(indir):
     for n in filenames:
@@ -54,8 +53,6 @@ indir="antechamber/"
 for root, dirs, filenames in os.walk(indir):
     for n in filenames:
         os.system("cp ComputeRotableAndDihedralAngles/dist/"+n[:-5]+".sdf.txt dihedral_id/"+n[:-5]+".txt")
-shutil.rmtree("ComputeRotableAndDihedralAngles/")
-shutil.rmtree("antechamber_pdb")
 ###
 
 ########## AMBER gaff2 dihedral parameters (.frcmod)
