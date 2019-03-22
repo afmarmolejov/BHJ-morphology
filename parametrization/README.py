@@ -11,7 +11,10 @@ if os.path.exists("babel/"):
 else:
    os.mkdir("babel/")
 
-os.system("babel mols/*smi babel/*.mol2 --canonical -h --gen3D")
+indir="./mols/"
+for root, dirs, filenames in os.walk(indir):
+    for n in filenames:
+os.system("babel mols/"+str(n)+" babel/"+str(n[:-4])+".mol2 --canonical -h --gen3D")
 
 ###antechamber inputs
 if os.path.exists("antechamber/"):
