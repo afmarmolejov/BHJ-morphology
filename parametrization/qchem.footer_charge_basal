@@ -1,0 +1,14 @@
+$end
+
+@@@
+
+$comment
+   HIRSHFELD_BASAL
+$end
+
+$rem
+   SYM_IGNORE TRUE
+   JOBTYPE SP
+   EXCHANGE omegaB97X-D
+   BASIS cc-pVTZ
+   HIRSHITER TRUE

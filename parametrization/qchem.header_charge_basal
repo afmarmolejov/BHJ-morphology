@@ -1,0 +1,14 @@
+$comment
+   OPTIMIZATION
+$end
+
+$rem
+   JOBTYPE OPT
+   EXCHANGE omegaB97X-D
+   BASIS cc-pVTZ
+   MEM_STATIC 5000
+   MEM_TOTAL 20000
+$end
+
+$molecule
+   0 1
