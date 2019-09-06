@@ -36,14 +36,14 @@ os.system("bash antechamber.bash")
 indir="./antechamber/"
 for root, dirs, filenames in os.walk(indir):
     for n in filenames:
-	os.system("babel antechamber_pdb/"+n[:-5]+".pdb antechamber_pdb/"+n[:-5]+".sdf")
+        os.system("babel antechamber_pdb/"+n[:-5]+".pdb antechamber_pdb/"+n[:-5]+".sdf")
 
 ######## Rotable bonds id
 ##
 indir="./antechamber_pdb/"
 for root, dirs, filenames in os.walk(indir):
     for n in filenames:
-        os.system("cp antechamber_pdb/"n" ComputeRotableAndDihedralAngles/dist/")
+        os.system("cp antechamber_pdb/"+n+" ComputeRotableAndDihedralAngles/dist/")
 
 os.system("cd ComputeRotableAndDihedralAngles/dist/ && java -jar ComputeRotableAndDihedralAngles.jar")
 if os.path.exists("dihedral_id/"):
