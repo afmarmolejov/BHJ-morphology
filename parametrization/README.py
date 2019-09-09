@@ -106,6 +106,7 @@ os.system("python corrected_dihedral_basal.py")
 
 ######## scan sander (turn_off AMBER parameters)
 ##
+os.system("python min_basal_xyz.py")
 os.system("python frcmod_zero_basal.py")
 os.system("python mol2_basal_0.py")
 os.system("python scan_sander_basal.py")
