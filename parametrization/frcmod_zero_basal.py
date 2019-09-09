@@ -1,13 +1,13 @@
 import os
 import shutil
-if os.path.exists("/home/andrexfelo/proyecto_amador/SOLAR_CELL/frcmod_basal_zero"):
-    shutil.rmtree("/home/andrexfelo/proyecto_amador/SOLAR_CELL/frcmod_basal_zero")
-    os.mkdir("/home/andrexfelo/proyecto_amador/SOLAR_CELL/frcmod_basal_zero")
+if os.path.exists("frcmod_basal_zero"):
+    shutil.rmtree("frcmod_basal_zero")
+    os.mkdir("frcmod_basal_zero")
 else:
-    os.mkdir("/home/andrexfelo/proyecto_amador/SOLAR_CELL/frcmod_basal_zero")
-zero="/home/andrexfelo/proyecto_amador/SOLAR_CELL/frcmod_basal_zero/"
-indir = '/home/andrexfelo/proyecto_amador/SOLAR_CELL/AMBER_dihedral_new/'
-frcdir='/home/andrexfelo/proyecto_amador/SOLAR_CELL/frcmod_basal/'
+    os.mkdir("frcmod_basal_zero")
+zero="frcmod_basal_zero/"
+indir = 'AMBER_dihedral_new/'
+frcdir='frcmod_basal/'
 for root, dirs, filenames in os.walk(indir):
     for n in filenames:
         print(n)
