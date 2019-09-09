@@ -106,7 +106,7 @@ os.system("python corrected_dihedral_basal.py")
 
 ######## scan sander (turn_off AMBER parameters)
 ##
-os.system("python frcmod_basal_zero.py")
+os.system("python frcmod_zero_basal.py")
 os.system("python mol2_basal_0.py")
 os.system("python scan_sander_basal.py")
 ##wait for outputs in scan_sander_basal ### visualize the .sd with pymol
