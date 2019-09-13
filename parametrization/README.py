@@ -117,13 +117,14 @@ os.system("python scan_sander_basal.py")
 os.system("python scan_qchem_basal.py")
 os.system("python scan_qchem_miztli.py")
 #wait for outputs to save into out_scan_qchem_basal
+os.system("python energy_qchem_scan_basal.py")
 os.system("python video_qchem_basal.py")
 ##visualize the .sd extension by pymol
 
 
 ######## parameters optimization
 ##
-os.system("python basal_param.py")
+os.system("python2.7 basal_param.py")
 
 ######## Final parameters (frcmod)
 ##
