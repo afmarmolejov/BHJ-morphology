@@ -25,11 +25,12 @@ for char in string.ascii_uppercase:
         letters.append(str(char+i))
 #print(lista)
 
-count=0
+
 
 for root, dirs, filenames in os.walk(indir):
     for n in filenames:
         print('\n')
+        count=0
         bond=0
         
         
